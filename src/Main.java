@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class calcular {
     public static void main(String[] args) {
 
         Scanner lector = new Scanner(System.in);
@@ -10,18 +10,21 @@ public class Main {
         double num3;
         double promedio;
 
-        System.out.println("ingresar el primer numero a calcular ");
+        System.out.println("////////////////////////////////////////////////////////");
+
+
+        System.out.println("debes ingresar un primer numero para empezar a calcular ");
         num1 = lector.nextDouble();
 
-        System.out.println("ingresar el segundo numero a calcular");
+        System.out.println("debes ingresar un segundo numero para calcular");
         num2 = lector.nextDouble();
 
-        System.out.println("ingresar el tercer numero a calcular ");
+        System.out.println("debes ingresar un tercer numero para calcular ");
         num3 = lector.nextDouble();
 
         promedio = ((num1+num2+num3)/3);
 
-        System.out.println("promedio de los tres numeros es:"+" "+promedio);
+        System.out.println("el promedio de los tres numeros calculados es:"+" "+promedio);
 
     }
 }
